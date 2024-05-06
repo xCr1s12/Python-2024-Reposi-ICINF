@@ -1,4 +1,4 @@
-#Variables
+#Primer Variables 
 
 nombre = "Cristobal" 
 print("Hola soy ", nombre)
