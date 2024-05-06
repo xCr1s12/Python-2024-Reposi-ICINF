@@ -1,16 +1,38 @@
 #Primer Variables 
 
-nombre = "Cristobal" 
-print("Hola soy ", nombre)
-edad = int(input("Introduce tu Edad: ")) 
-print (nombre," mi edad es: ", edad)
+name = "Cristobal" 
+edad = 12
+ 
+#1 Clasico 
+print("Hola soy ", name)
+print (name," mi edad es: ", edad)
 
-name = "Sancho"
+#2 f string
 print(f"hola soy {name}") 
-Años = int(input("Introduce tu edad: "))
-print (f"{name} tu edad es {Años}") 
+print (f"{name} tu edad es {edad}") 
 
-nmbre = "pavlosky"
-print("Hola soy "+nmbre)
-añitos = str(input("introduce tu edad: ")) 
-print(" tu edad es: " + añitos)
+#3 concatenar
+print("Hola soy "+name)
+print(" mi edad es  " + str(edad)) 
+
+FLotate = 1.8 
+#numflotante = float (transforma a flotante)
+
+entero = 1
+#numEntero = int(transforma a integro)
+
+complejos= 5 + 4j
+#numComplejo= complex(transforma a complejo) 
+
+
+''' 
+round() 
+format
+int()
+min()
+int()
+float()
+max()
+sum()
+
+'''
