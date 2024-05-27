@@ -15,3 +15,18 @@ while pescado == False:  #Mientras el pescado sea Falso
 
 while pescado == 2:  #Mientras el pescado sea Falso    -------- LA CONDICION HARA QUE SE REPITA MIENTRAS LA CONDICION ESTE ACTIVA
     print("El pescado esta Bueno") #Escribr el pescado esta Bueno
+
+
+
+"""
+Listas apuntes
+"""
+
+"""
+append() agrega elementos a la ultima posicion
+insert() Agrega elementos a la primera posicion
+remove() BORRA UNA OCURRENCIA
+extend() COMBINA LISTAS
+pop() BORRA Y IMPRIME EN PANTALLA EL ULTIMO ELEMENTO
+sort() ORDENA la lista
+"""

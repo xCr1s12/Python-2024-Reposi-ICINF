@@ -1,3 +1,4 @@
+import sys
 #Bibliotecas
 import math
 
@@ -13,7 +14,7 @@ Programacion
 print(Dia[3]) # imprimira el caracter en la posicion 4 ya que cuenta desde el 0 
 print(Dia[-3]) #Imprimira a la inversa desde el 0   
 print(len(Dia))
-print(Dia[5])# Trunca y imprime los 5 caracteres
+print(Dia[:5])# Trunca y imprime los 5 caracteres
 """
 print(Dia * 4)
 Salida de texto va a ser LunesLunesLunesLunes 
@@ -37,9 +38,19 @@ print(10 == 10)
 papas= ["rayada","blanca","roja"]
 cocinapapas= list(["papa al horno","papa rellena","papa papa papa de una papa","papa rellena"])
 papaFrita = ["papas", 2, True]
+listanum = list(range(10))
 
 
 ##Funciones de listas
 print(type(papas))
 print(len(papas))
-print(cocinapapas.count("papa rellena"))
+print(cocinapapas.count("papa rellena")) #Cuenta cuantos elementos de los seleccionados hay 
+print(papaFrita[1])#Imprime una posicion de una lista
+print(listanum)
+
+
+#TUPLAS
+zanahoria = tuple()
+vegetales = ("zanahoria","lechuga","repollo")
+print(type(vegetales))
+print(vegetales.index("lechuga"))#Imprime la posicion de un elemento
