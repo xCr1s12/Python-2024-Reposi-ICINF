@@ -33,17 +33,13 @@ print(1 >= 0)
 print(100 <= 10)
 print(10 == 10)
 
-#COndicionales
+##Listas
+papas= ["rayada","blanca","roja"]
+cocinapapas= list(["papa al horno","papa rellena","papa papa papa de una papa","papa rellena"])
+papaFrita = ["papas", 2, True]
 
-if pescado == False: 
-    print("El pescado esta malo")
-if pescado == True: 
-    print("El pescado esta bueno")
 
-#Bucle While 
-while pescado == False:  #Mientras el pescado sea Falso
-    print("El pescado esta malo") #Escribr el pescado esta malo
-    break# cerrar el bucle
-
-while pescado == 2:  #Mientras el pescado sea Falso    -------- LA CONDICION HARA QUE SE REPITA MIENTRAS LA CONDICION ESTE ACTIVA
-    print("El pescado esta Bueno") #Escribr el pescado esta Bueno
+##Funciones de listas
+print(type(papas))
+print(len(papas))
+print(cocinapapas.count("papa rellena"))
