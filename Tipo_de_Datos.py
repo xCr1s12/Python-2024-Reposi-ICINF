@@ -1,4 +1,4 @@
-import sys
+
 #Bibliotecas
 import math
 

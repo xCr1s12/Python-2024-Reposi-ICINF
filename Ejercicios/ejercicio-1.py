@@ -17,7 +17,7 @@ pp = (pn1 + pn2 + pn3)/3
 Jp = (jn1 + jn2 + jn3)/3
 ap = (an1 + an2 + an3)/3
 
-print("Joel tu nota es {:.3f}".format(Jp))
+print("Joel tu nota es {:.2f}".format(Jp))
 print("tu nota mas baja es ",min(jn1,jn2,jn3))
 
 print("Alondra tu nota es {:.3f}".format(ap))
