@@ -62,4 +62,27 @@ print(type(papasnuevas))# papas nuevas es una tupla con los contenidos de cocina
 al convertir una tupla en lista se pueden cambiar valores ya que al ser tuplas son inmutables
 """
 
+print(papasnuevas[0:3])
 
+
+#sets 
+
+x = set()
+print(type(x))
+dias = "viernes"
+mes = "mayo"
+año = 2024
+fecha = set({dias,mes,año})
+print(fecha)
+fecha.add(31)
+print(fecha)                                                                                                                        
+
+
+#diccionario
+pium = {
+    "supercalifragilisticoespialidoso": "sopa",
+    "dulce" : "chocolate",
+    "cantidad": 12,
+    "valor_manzana": 150,
+}
+print(pium)
