@@ -2,6 +2,7 @@
 junto a boleanos 
 """
 #COndicionales
+pescado = 20 == 20
 
 if pescado == False: 
     print("El pescado esta malo")
@@ -16,6 +17,9 @@ while pescado == False:  #Mientras el pescado sea Falso
 while pescado == 2:  #Mientras el pescado sea Falso    -------- LA CONDICION HARA QUE SE REPITA MIENTRAS LA CONDICION ESTE ACTIVA
     print("El pescado esta Bueno") #Escribr el pescado esta Bueno
 
+#for loop
+for x in range(1,10):
+    print("patata")
 
 
 """
@@ -30,3 +34,5 @@ extend() COMBINA LISTAS
 pop() BORRA Y IMPRIME EN PANTALLA EL ULTIMO ELEMENTO
 sort() ORDENA la lista
 """
+
+    

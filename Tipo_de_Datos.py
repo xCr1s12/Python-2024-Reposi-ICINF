@@ -54,3 +54,12 @@ zanahoria = tuple()
 vegetales = ("zanahoria","lechuga","repollo")
 print(type(vegetales))
 print(vegetales.index("lechuga"))#Imprime la posicion de un elemento
+
+papasnuevas = tuple(cocinapapas) # se puede convertir una lista en una tupla 
+print(type(cocinapapas))# cocicna papas era una lista 
+print(type(papasnuevas))# papas nuevas es una tupla con los contenidos de cocinapapas 
+"""
+al convertir una tupla en lista se pueden cambiar valores ya que al ser tuplas son inmutables
+"""
+
+
