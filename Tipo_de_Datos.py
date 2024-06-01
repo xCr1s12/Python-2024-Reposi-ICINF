@@ -85,4 +85,4 @@ pium = {
     "cantidad": 12,
     "valor_manzana": 150,
 }
-print(pium)
+print(pium["cantidad"] + pium["valor_manzana"])
