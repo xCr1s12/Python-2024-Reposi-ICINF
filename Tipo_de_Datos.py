@@ -93,7 +93,6 @@ pium.pop("cantidad") #elimina valores de  la lista o diccionario
 print(pium.keys()) # da una salida en pantalla con un valor en especifico
 print(pium.values())# muestra en pantalla los valores el diccionario
 
-
 pium.update({
 
     "cantidad" : 21 #Actualiza el valor de un elemento dentro de el diccionario
