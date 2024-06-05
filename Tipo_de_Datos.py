@@ -98,3 +98,7 @@ pium.update({
     "cantidad" : 21 #Actualiza el valor de un elemento dentro de el diccionario
 
 })
+#funciones nuevas
+li = [1,2,3,4,5]
+lista_map = list(map(str, li))
+print(lista_map)
