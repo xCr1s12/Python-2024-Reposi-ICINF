@@ -31,7 +31,7 @@ Prom_Lenguaje = (Nota1_Lenguaje*0.30)+(Nota2_Lenguaje*0.50)+(Nota3_Lenguaje*0.20
 Prom_Matematicas = (Nota1_Matematicas*0.30)+(Nota2_Matematicas*0.50)+(Nota3_Matematicas*0.20)
 
 #Almaceno la informacion en una tupla 
-Historia_Tupl = ("Historia",Historia_set,"{:.1f}".format(Prom_Historia))
+Historia_Tupl = ("Historia",Historia_set,round(Prom_Historia,1))
 Lenguaje_Tupl = ("Lenguaje",Lenguaje_set,"{:.1f}".format(Prom_Lenguaje))
 matematicas_Tupl = ("Matematicas",Matematicas_set,"{:.1f}".format(Prom_Matematicas))
 
