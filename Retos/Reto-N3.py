@@ -3,10 +3,7 @@ ciudades = ["Santiago", "Temuco", "Osorno", "Punta Arenas"]
 I_C_A = [134, 99 , 245 , 50]
 
 #Diccionario con Categoria (Mouskeherramienta Misteriosa)
-Categoria={
-    "I.C.A_minima" : "",
-    "I.C.A_maxima" : "", 
-}
+Categoria={"I.C.A_minima" : "","I.C.A_maxima" : "", }
 #Valores minimos y maximos
 Min_ICA = min(I_C_A)
 max_ICA = max(I_C_A)
